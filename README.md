@@ -1,6 +1,6 @@
 # Genetics Lab
 
->  Participate in the **WWDC22 Swift Student Challenge** project. Built entirely with SwiftUI.
+>  **WWDC22 Swift Student Challenge** entry, built entirely with SwiftUI. Awaiting results.
 
 The name of my project is Genetics Lab, and the goal is to help people learn the most basic and simple principles of genetics through visual models and hands-on practice. We all learned about genetics in biology class in high school, and because it takes so long to go from planting seeds to harvesting, there are very few experiments on genetics in the classroom.
 
