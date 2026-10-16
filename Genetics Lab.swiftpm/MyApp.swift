@@ -1,11 +1,11 @@
 import SwiftUI
 
 @main
+@MainActor
 struct MyApp: App {
-    var body: some Scene {
-        WindowGroup {
-            // InstructionView(title: startTitle, instructionContent: startInstructionContent, factorAnimationOn: true, plants: startPlants)
-            MainView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      MainView()
     }
+  }
 }
