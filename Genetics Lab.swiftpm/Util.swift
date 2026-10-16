@@ -1,52 +1,43 @@
-//
-//  File.swift
-//  Gene Lab
-//
-//  Created by Han Chubo on 2022/4/17.
-//
-
 import SwiftUI
+import UniformTypeIdentifiers
 
 extension Color {
-    init(hex: Int, alpha: Double = 1) {
-        let components = (
-            R: Double((hex >> 16) & 0xff) / 255,
-            G: Double((hex >> 08) & 0xff) / 255,
-            B: Double((hex >> 00) & 0xff) / 255
-        )
-        self.init(
-            .sRGB,
-            red: components.R,
-            green: components.G,
-            blue: components.B,
-            opacity: alpha
-        )
-    }
+  init(hex: Int, alpha: Double = 1) {
+    self.init(
+      .sRGB,
+      red: Double((hex >> 16) & 0xff) / 255,
+      green: Double((hex >> 8) & 0xff) / 255,
+      blue: Double(hex & 0xff) / 255,
+      opacity: alpha)
+  }
 }
 
-
 struct PlantDropDelegate: DropDelegate {
-    @Binding var receiveID: String
+  @Binding var selection: PlantSpecies?
+  let availableIDs: Set<Int>
+  let isEnabled: Bool
 
+  func validateDrop(info: DropInfo) -> Bool {
+    isEnabled && info.hasItemsConforming(to: [UTType.text.identifier])
+  }
 
-        func performDrop(info: DropInfo) -> Bool {
-
-            if let item = info.itemProviders(for: ["public.text"]).first {
-                //  Load the item
-                item.loadItem(forTypeIdentifier: "public.text", options: nil) { (text, err) in
-                    //  Cast NSSecureCoding to Ddata
-                    if let data = text as? Data {
-                        //  Extract string from data
-                        let inputStr = String(decoding: data, as: UTF8.self)
-                        //  Conditionally change color given text string
-                        receiveID = inputStr
-                    }
-                }
-            } else {
-
-                return false
-            }
-
-            return true
-        }
+  func performDrop(info: DropInfo) -> Bool {
+    guard validateDrop(info: info),
+      let item = info.itemProviders(for: [UTType.text.identifier]).first
+    else { return false }
+    item.loadItem(forTypeIdentifier: UTType.text.identifier, options: nil) { value, error in
+      guard error == nil else { return }
+      let text: String?
+      if let data = value as? Data {
+        text = String(data: data, encoding: .utf8)
+      } else {
+        text = value as? String
+      }
+      guard let text = text, let id = Int(text), availableIDs.contains(id),
+        let species = PlantCatalog.species(id: id)
+      else { return }
+      DispatchQueue.main.async { selection = species }
+    }
+    return true
+  }
 }

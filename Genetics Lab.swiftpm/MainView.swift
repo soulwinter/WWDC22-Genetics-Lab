@@ -7,18 +7,19 @@
 
 import SwiftUI
 
-
+@MainActor
 struct MainView: View {
-    var body: some View {
-        NavigationView {
-            InstructionView(id: 0)
-        }
-        .navigationViewStyle(.stack)
+  var body: some View {
+    NavigationView {
+      InstructionView(lesson: .firstLesson)
     }
+    .navigationViewStyle(.stack)
+  }
 }
 
+@MainActor
 struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
-    }
+  static var previews: some View {
+    MainView()
+  }
 }

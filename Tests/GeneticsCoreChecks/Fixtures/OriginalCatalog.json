@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Yellow 🍅",
+    "image": "yellow_round_healthy",
+    "genotype": "aa",
+    "offspringImage": "yellow_pear-shaped_healthy"
+  },
+  {
+    "id": 2,
+    "name": "Red 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AA",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 3,
+    "name": "Red 🍅",
+    "image": "red_round_healthy",
+    "genotype": "Aa",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 4,
+    "name": "Red Round 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AABB",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 5,
+    "name": "Red Round 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AaBB",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 6,
+    "name": "Yellow Round 🍅",
+    "image": "yellow_round_healthy",
+    "genotype": "aaBB",
+    "offspringImage": "yellow_round_healthy"
+  },
+  {
+    "id": 7,
+    "name": "Red Round 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AABb",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 8,
+    "name": "Red Round 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AaBb",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 9,
+    "name": "Yellow Round 🍅",
+    "image": "yellow_round_healthy",
+    "genotype": "aaBb",
+    "offspringImage": "yellow_round_healthy"
+  },
+  {
+    "id": 10,
+    "name": "Red Pear-Shaped 🍅",
+    "image": "red_pear-shaped_healthy",
+    "genotype": "AAbb",
+    "offspringImage": "red_pear-shaped_healthy"
+  },
+  {
+    "id": 11,
+    "name": "Red Pear-Shaped 🍅",
+    "image": "red_pear-shaped_healthy",
+    "genotype": "Aabb",
+    "offspringImage": "red_pear-shaped_healthy"
+  },
+  {
+    "id": 12,
+    "name": "Yellow Pear-Shaped 🍅",
+    "image": "yellow_pear-shaped_healthy",
+    "genotype": "aabb",
+    "offspringImage": "yellow_pear-shaped_healthy"
+  },
+  {
+    "id": 13,
+    "name": "red round healthy 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AABBCC",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 14,
+    "name": "red round healthy 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AABBCc",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 15,
+    "name": "red round disease 🍅",
+    "image": "red_round_disease",
+    "genotype": "AABBcc",
+    "offspringImage": "red_round_disease"
+  },
+  {
+    "id": 16,
+    "name": "red round healthy 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AABbCC",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 17,
+    "name": "red round healthy 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AABbCc",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 18,
+    "name": "red round disease 🍅",
+    "image": "red_round_disease",
+    "genotype": "AABbcc",
+    "offspringImage": "red_round_disease"
+  },
+  {
+    "id": 19,
+    "name": "red pear-shaped healthy 🍅",
+    "image": "red_pear-shaped_healthy",
+    "genotype": "AAbbCC",
+    "offspringImage": "red_pear-shaped_healthy"
+  },
+  {
+    "id": 20,
+    "name": "red pear-shaped healthy 🍅",
+    "image": "red_pear-shaped_healthy",
+    "genotype": "AAbbCc",
+    "offspringImage": "red_pear-shaped_healthy"
+  },
+  {
+    "id": 21,
+    "name": "red pear-shaped disease 🍅",
+    "image": "red_pear-shaped_disease",
+    "genotype": "AAbbcc",
+    "offspringImage": "red_pear-shaped_disease"
+  },
+  {
+    "id": 22,
+    "name": "red round healthy 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AaBBCC",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 23,
+    "name": "red round healthy 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AaBBCc",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 24,
+    "name": "red round disease 🍅",
+    "image": "red_round_disease",
+    "genotype": "AaBBcc",
+    "offspringImage": "red_round_disease"
+  },
+  {
+    "id": 25,
+    "name": "red round healthy 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AaBbCC",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 26,
+    "name": "red round healthy 🍅",
+    "image": "red_round_healthy",
+    "genotype": "AaBbCc",
+    "offspringImage": "red_round_healthy"
+  },
+  {
+    "id": 27,
+    "name": "red round disease 🍅",
+    "image": "red_round_disease",
+    "genotype": "AaBbcc",
+    "offspringImage": "red_round_disease"
+  },
+  {
+    "id": 28,
+    "name": "red pear-shaped healthy 🍅",
+    "image": "red_pear-shaped_healthy",
+    "genotype": "AabbCC",
+    "offspringImage": "red_pear-shaped_healthy"
+  },
+  {
+    "id": 29,
+    "name": "red pear-shaped healthy 🍅",
+    "image": "red_pear-shaped_healthy",
+    "genotype": "AabbCc",
+    "offspringImage": "red_pear-shaped_healthy"
+  },
+  {
+    "id": 30,
+    "name": "red pear-shaped disease 🍅",
+    "image": "red_pear-shaped_disease",
+    "genotype": "Aabbcc",
+    "offspringImage": "red_pear-shaped_disease"
+  },
+  {
+    "id": 31,
+    "name": "yellow round healthy 🍅",
+    "image": "yellow_round_healthy",
+    "genotype": "aaBBCC",
+    "offspringImage": "yellow_round_healthy"
+  },
+  {
+    "id": 32,
+    "name": "yellow round healthy 🍅",
+    "image": "yellow_round_healthy",
+    "genotype": "aaBBCc",
+    "offspringImage": "yellow_round_healthy"
+  },
+  {
+    "id": 33,
+    "name": "yellow round disease 🍅",
+    "image": "yellow_round_disease",
+    "genotype": "aaBBcc",
+    "offspringImage": "yellow_round_disease"
+  },
+  {
+    "id": 34,
+    "name": "yellow round healthy 🍅",
+    "image": "yellow_round_healthy",
+    "genotype": "aaBbCC",
+    "offspringImage": "yellow_round_healthy"
+  },
+  {
+    "id": 35,
+    "name": "yellow round healthy 🍅",
+    "image": "yellow_round_healthy",
+    "genotype": "aaBbCc",
+    "offspringImage": "yellow_round_healthy"
+  },
+  {
+    "id": 36,
+    "name": "yellow round disease 🍅",
+    "image": "yellow_round_disease",
+    "genotype": "aaBbcc",
+    "offspringImage": "yellow_round_disease"
+  },
+  {
+    "id": 37,
+    "name": "yellow pear-shaped healthy 🍅",
+    "image": "yellow_pear-shaped_healthy",
+    "genotype": "aabbCC",
+    "offspringImage": "yellow_pear-shaped_healthy"
+  },
+  {
+    "id": 38,
+    "name": "yellow pear-shaped healthy 🍅",
+    "image": "yellow_pear-shaped_healthy",
+    "genotype": "aabbCc",
+    "offspringImage": "yellow_pear-shaped_healthy"
+  },
+  {
+    "id": 39,
+    "name": "yellow pear-shaped disease 🍅",
+    "image": "yellow_pear-shaped_disease",
+    "genotype": "aabbcc",
+    "offspringImage": "yellow_pear-shaped_disease"
+  },
+  {
+    "id": 99,
+    "name": "unknown",
+    "image": "questionmark",
+    "genotype": "",
+    "offspringImage": null
+  }
+]
